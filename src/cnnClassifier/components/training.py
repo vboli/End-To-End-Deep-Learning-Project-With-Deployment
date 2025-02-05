@@ -12,6 +12,7 @@ class Training:
             self.config.updated_base_model_path
         )
     
+    
     def train_valid_generator(self):
 
         datagenerator_kwargs = dict(
